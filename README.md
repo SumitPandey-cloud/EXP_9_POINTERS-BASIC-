@@ -3,8 +3,11 @@
 To study and implement C++ Pointer basics <br>
 
 ## THEORY
-Pointers in C++ denote variables that hold the address of another variable in memory. They permit direct memory operation thus playing an essential role in specific programming tasks like dynamic storage allocation, matrices, and also developing complex data structures e.g. linked list and trees. A pointer gets declared when a data type is defined with the sign _‘*’_ before writing down the name of the pointer itself after it. This indicates what kind of variable does this point towards. The _&_ operator used delivers a variable’s physical location in a computer’s storage space. This operator can retrieve or reference what is held by an address number which is stored within its range. This means that dereferencing enables one to read as well as alter certain values belonging to that particular place you arrived at pointing still added onto them. Pointers can get lengthened or shortened so as they lead to areas right above ours or below depending on whatever you want them to do with your pointers; particularly amid arrangements involving arrays where these may become more useful by calling upon different addresses thereby traversing through all their parts simultaneously.
-<br>
+In C++, pointers are like maps that show the location of other variables in the computer's memory. They're super useful for tasks that require direct access to memory, like dynamically allocating space, working with matrices, and creating complex data structures like linked lists and trees.
+
+To declare a pointer, you simply add an asterisk (*) before its name, which indicates what type of variable it's pointing to. The ampersand symbol (&) is like a GPS that reveals the exact memory address of a variable. And when you dereference a pointer, you can read or modify the value stored at that address.
+
+Pointers are also flexible, meaning you can move them around to point to different locations in memory. This is especially handy when working with arrays, where pointers can help you navigate and access each element by referencing its unique address.<br>
 
 ## CODE
 ```
