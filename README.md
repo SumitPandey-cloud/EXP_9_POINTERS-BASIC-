@@ -1,4 +1,4 @@
-# Experiment 9
+# Experiment 9 
 ## AIM
 To study and implement C++ Pointer basics <br>
 
@@ -9,7 +9,7 @@ To declare a pointer, you simply add an asterisk (*) before its name, which indi
 
 Pointers are also flexible, meaning you can move them around to point to different locations in memory. This is especially handy when working with arrays, where pointers can help you navigate and access each element by referencing its unique address.<br>
 
-## CODE
+## CODE 
 ```
 #include <iostream>
 using namespace std;
