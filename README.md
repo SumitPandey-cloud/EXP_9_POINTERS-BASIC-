@@ -1,16 +1,12 @@
 # Experiment 9
-
-<br>
-**Aim:** <br>
+## AIM
 To study and implement C++ Pointer basics <br>
-<br>
-**Theory:** <br>
+
+## THEORY
 Pointers in C++ denote variables that hold the address of another variable in memory. They permit direct memory operation thus playing an essential role in specific programming tasks like dynamic storage allocation, matrices, and also developing complex data structures e.g. linked list and trees. A pointer gets declared when a data type is defined with the sign _‘*’_ before writing down the name of the pointer itself after it. This indicates what kind of variable does this point towards. The _&_ operator used delivers a variable’s physical location in a computer’s storage space. This operator can retrieve or reference what is held by an address number which is stored within its range. This means that dereferencing enables one to read as well as alter certain values belonging to that particular place you arrived at pointing still added onto them. Pointers can get lengthened or shortened so as they lead to areas right above ours or below depending on whatever you want them to do with your pointers; particularly amid arrangements involving arrays where these may become more useful by calling upon different addresses thereby traversing through all their parts simultaneously.
 <br>
 
-**Code:** <br>
-<br>
-
+## CODE
 ```
 #include <iostream>
 using namespace std;
@@ -56,15 +52,11 @@ int main()
     
 ```
 
-**Outputs:**  <br>
+## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/406569f7-f9b4-434e-93b9-e0b5893f0c48)
 
+## CONCLUSION
+ We learnt about pointers in C++. 
+ We learnt the use case of pointers in C++. 
 
-<br>
-
-**Conclusion:** <br>
-&#8594; We learnt about pointers in C++. <br>
-&#8594; We learnt the use case of pointers in C++. <br>
-*******
-<br>
