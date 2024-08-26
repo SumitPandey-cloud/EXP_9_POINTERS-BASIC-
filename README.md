@@ -15,21 +15,21 @@ int main()
     int a,b;
     int *i, *j;
     int k;
-    cout<<"Enter a number: ";
+    cout<<"Enter number A: ";
     cin>>a;
-    cout<<"Enter another number: ";
+    cout<<"Enter number B: ";
     cin>>b;
     i = &a;
     j = &b;
-    cout<<"Memory location of first number : "<<i<<endl;
-    cout<<"Memory location of first number : "<<&a<<endl;
-    cout<<"First number using dereferencing : "<<*i<<endl;
-    cout<<"First number : "<<a<<endl;
-    cout<<"Memory location of first number : "<<j<<endl;
-    cout<<"Memory location of first number : "<<&b<<endl;
-    cout<<"Second number : "<<*j<<endl;
-    cout<<"Second number : "<<b<<endl;
-    cout<<"Sum of two numbers: "<<*i+*j<<endl;
+    cout<<"Memory location of A : "<<i<<endl;
+    cout<<"Memory location of A: "<<&a<<endl;
+    cout<<"number A using dereferencing : "<<*i<<endl;
+    cout<<"number A : "<<a<<endl;
+    cout<<"Memory location of A : "<<j<<endl;
+    cout<<"Memory location of A : "<<&b<<endl;
+    cout<<"B : "<<*j<<endl;
+    cout<<"B : "<<b<<endl;
+    cout<<"Sum of two A and B: "<<*i+*j<<endl;
 
     for (k = 0;k<3;k++)
     {
