@@ -28,8 +28,8 @@ int main()
     cout<<"Memory location of A: "<<&a<<endl;
     cout<<"number A using dereferencing : "<<*i<<endl;
     cout<<"number A : "<<a<<endl;
-    cout<<"Memory location of A : "<<j<<endl;
-    cout<<"Memory location of A : "<<&b<<endl;
+    cout<<"Memory location of B : "<<j<<endl;
+    cout<<"Memory location of B : "<<&b<<endl;
     cout<<"B : "<<*j<<endl;
     cout<<"B : "<<b<<endl;
     cout<<"Sum of two A and B: "<<*i+*j<<endl;
